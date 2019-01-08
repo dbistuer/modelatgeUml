@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build">
+	<path id="build.classpath">
+		<pathelement location="classes"/>
+	</path>
+	<target name="init">
+		<mkdir dir="classes"/>
+	</target>
+	<target name="clean">
+		<delete dir="classes"/>
+	</target>
+	<target depends="init" name="build">
+		<javac srcdir="." destdir="classes" source="1.5" target="1.5" fork="yes">
+			<classpath refid="build.classpath"/>
+			<include name="Comerç.java"/>
+			<include name="Client.java"/>
+			<include name="Producte.java"/>
+			<include name="Atleta.java"/>
+			<include name="Tutor.java"/>
+			<include name="Centre.java"/>
+			<include name="Professor.java"/>
+			<include name="Assignatura.java"/>
+			<include name="qualificació.java"/>
+			<include name="Alumne.java"/>
+			<include name="Carrera.java"/>
+			<include name="Universitat.java"/>
+			<include name="Empresa.java"/>
+			<include name="Departament.java"/>
+			<include name="Cap.java"/>
+			<include name="Fill.java"/>
+			<include name="Empleat.java"/>
+			<include name="Jugador.java"/>
+			<include name="Partit.java"/>
+			<include name="Equip.java"/>
+			<include name="Editorial.java"/>
+			<include name="Libro.java"/>
+			<include name="Autor.java"/>
+			<include name="edita.java"/>
+			<include name="Persona.java"/>
+			<include name="Pares.java"/>
+		</javac>
+	</target>
+</project>
