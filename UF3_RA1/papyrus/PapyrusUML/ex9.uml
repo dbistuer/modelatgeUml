@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nygZ4BeHEemlnpmfMUThKQ" name="ex3">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_n7xqoBeHEemlnpmfMUThKQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_a78vcBeNEemlnpmfMUThKQ" name="Universitat">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kVeDkBeNEemlnpmfMUThKQ" name="idUniversitat" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kmtkkBeNEemlnpmfMUThKQ" name="nom" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_k6gqUBeNEemlnpmfMUThKQ" name="ciutat" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_beT1oBeNEemlnpmfMUThKQ" name="Carrera">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lPXgABeNEemlnpmfMUThKQ" name="idCarrera" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_l3X7MBeNEemlnpmfMUThKQ" name="nom" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cBdmABeNEemlnpmfMUThKQ" name="Alumne">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mafPUBeNEemlnpmfMUThKQ" name="matricula" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mrAXkBeNEemlnpmfMUThKQ" name="idAlumne" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_m9eAkBeNEemlnpmfMUThKQ" name="nom" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_c1hgMBeNEemlnpmfMUThKQ" name="Assignatura">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nhjlEBeNEemlnpmfMUThKQ" name="nom" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_n1ZHEBeNEemlnpmfMUThKQ" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7nfYkBeNEemlnpmfMUThKQ" name="conte" memberEnd="_7nfYkxeNEemlnpmfMUThKQ _7nf_oBeNEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7nfYkReNEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7nfYkheNEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7nfYkxeNEemlnpmfMUThKQ" name="carrera" type="_beT1oBeNEemlnpmfMUThKQ" association="_7nfYkBeNEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E08moBeOEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7nf_oBeNEemlnpmfMUThKQ" name="universitat" type="_a78vcBeNEemlnpmfMUThKQ" association="_7nfYkBeNEemlnpmfMUThKQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9SUisBeNEemlnpmfMUThKQ" name="cursa" memberEnd="_9SVJwheNEemlnpmfMUThKQ _9SWX4BeNEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9SVJwBeNEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9SVJwReNEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9SVJwheNEemlnpmfMUThKQ" name="alumne" type="_cBdmABeNEemlnpmfMUThKQ" association="_9SUisBeNEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LAwBkBeOEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9SWX4BeNEemlnpmfMUThKQ" name="carrera" type="_beT1oBeNEemlnpmfMUThKQ" association="_9SUisBeNEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MqK2cBeOEemlnpmfMUThKQ" value="2"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__RlEsBeNEemlnpmfMUThKQ" name="conte" memberEnd="__RlrwheNEemlnpmfMUThKQ __RmS0BeNEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__RlrwBeNEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__RlrwReNEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__RlrwheNEemlnpmfMUThKQ" name="assignatura" type="_c1hgMBeNEemlnpmfMUThKQ" association="__RlEsBeNEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QOFCEBeOEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__RmS0BeNEemlnpmfMUThKQ" name="carrera" type="_beT1oBeNEemlnpmfMUThKQ" association="__RlEsBeNEemlnpmfMUThKQ"/>
+  </packagedElement>
+</uml:Model>

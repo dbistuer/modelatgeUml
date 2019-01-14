@@ -8,21 +8,31 @@ Feu les suposicions addicionals que considereu raonables dins el context.
 
    ![1](paradigm/img/1.png)
 
+   ![ex1](papyrus/img/ex1.png)
+
 2.  Els professors d'un centre poden ser o no tutors d'un alumne, en qualsevol cas els alumnes solament podran tenir un únic tutor
 
    ![2](paradigm/img/2.png)
+
+![ex2](papyrus/img/ex2.png)
 
 3. En un comerç, un client compra diversos productes, i un producte pot ser comprat per diversos clients
 
    ![3](paradigm/img/3.png)
 
+   ![ex3](papyrus/img/ex3.png)
+
 4. Representa la relació entre Persones i els seus pares
 
    ![4](paradigm/img/4.png)
 
+   ![ex4](papyrus/img/ex4.png)
+
 5. En una carrera de relleus, representar la relació donar el relleu entre atletes(per calcular les cardinalidades màxima i mínima hauràs de tenir en compte si es tracta del primer,  l'últim o el 2º o 3º)
 
    ![5](paradigm/img/5.png)
+
+   ![ex5](papyrus/img/ex5.png)
 
 6. Una empresa està composta per diversos departaments dels quals es desitja
    emmagatzemar la seva no, nom i localitat. Els empleats han d'estar assignats a un
@@ -31,16 +41,22 @@ Feu les suposicions addicionals que considereu raonables dins el context.
 
    ![6](paradigm/img/6.png)
 
+   ![ex6](papyrus/img/ex6.png)
+
 7. Es desitja construir una bd per mantenir informació sobre els equips i partits de la lliga.
    Un equip té un cert no de jugadors (Aneu_jugador, dades personals) i no tots participenen cada partit. Volem registrar a més per cada partit, quins jugadors juguen, la data i
    l'hora del partit, resultats de les trobades i les posicions on juguen.
 
    ![7](paradigm/img/7.png)
 
+   ![ex7](papyrus/img/ex7.png)
+
 8. En una empresa, per a cadascun dels seus empleats, es guarden les dades dels seus
    fills. Representa aquesta relació fent les suposicions que creguis convenients
 
    ![8](paradigm/img/8.png)
+
+   ![ex8](papyrus/img/ex8.png)
 
 9. Es desitja dissenyar una BD per a una Universitat que contingui informació sobre
    carreres i assignatures que es poden estudiar. A més s'inclourà la informació dels
@@ -90,6 +106,17 @@ Utilitzeu el popular software IDE Eclipse, proporciona un plugin anomenat Papyru
 diagrama de classes.**
 
 1. Descarregueu i instal.leu Eclipse per desenvolupadors JAVA.
+
 2. Instal.leu el plugin Papyrus.
+
+   > Primer anem a la barra superior de l'eclipse, en la cual cerquem el boto Help i al desplegable d'aquest, sel·leccionem l'opció 'Eclipse marketplace' , el qual ens obrira una nova pantalla en la qual cercarem per 'papyrus' i instalareme el que esta instal·lat en la seguent imatge:
+
+   ![0](papyrus/install/0.png)
+
+   > Un cop instal·lat aquest, ja podrem començar a crear porjectes de 'papyrus'.
+
+   ![1](papyrus/install/1.png)
+
 3. Proveu de generar un codi Java per les relacions que heu dissenyat.
+
 4. Documenteu i expliqueu de forma adient els processos que heu seguit.

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nygZ4BeHEemlnpmfMUThKQ" name="ex3">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_n7xqoBeHEemlnpmfMUThKQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KyY80BeLEemlnpmfMUThKQ" name="Jugador">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R95hQBeLEemlnpmfMUThKQ" name="nom" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SOaCcBeLEemlnpmfMUThKQ" name="cognoms" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SihRQBeLEemlnpmfMUThKQ" name="posicio" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_S0ej8BeLEemlnpmfMUThKQ" name="numJugador" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LHKS8BeLEemlnpmfMUThKQ" name="Equip">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TIwK0BeLEemlnpmfMUThKQ" name="idEquip" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TZ4XEBeLEemlnpmfMUThKQ" name="numeroJugadors" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Tqm6sBeLEemlnpmfMUThKQ" name="nom" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LnKosBeLEemlnpmfMUThKQ" name="Partit">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_T6ph0BeLEemlnpmfMUThKQ" name="data" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UF-BABeLEemlnpmfMUThKQ" name="equipLocal" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UQ9JABeLEemlnpmfMUThKQ" name="equipVisitant" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ucse8BeLEemlnpmfMUThKQ" name="resultat" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UnziwBeLEemlnpmfMUThKQ" name="jugadors" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yHZNQBeLEemlnpmfMUThKQ" name="conte" memberEnd="_yHZ0UheLEemlnpmfMUThKQ _yHbpgReLEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yHZ0UBeLEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yHZ0UReLEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yHbpgReLEemlnpmfMUThKQ" name="jugador" type="_KyY80BeLEemlnpmfMUThKQ" association="_yHZNQBeLEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__KkvsBeLEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yHZ0UheLEemlnpmfMUThKQ" name="equip" type="_LHKS8BeLEemlnpmfMUThKQ" association="_yHZNQBeLEemlnpmfMUThKQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ywLEgBeLEemlnpmfMUThKQ" name="juga(Local)" memberEnd="_ywLEgxeLEemlnpmfMUThKQ _ywNgwheLEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ywLEgReLEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ywLEgheLEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ywNgwheLEemlnpmfMUThKQ" name="equip" type="_LHKS8BeLEemlnpmfMUThKQ" association="_ywLEgBeLEemlnpmfMUThKQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ywLEgxeLEemlnpmfMUThKQ" name="partit" type="_LnKosBeLEemlnpmfMUThKQ" association="_ywLEgBeLEemlnpmfMUThKQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1NA6YBeLEemlnpmfMUThKQ" name="juga(Visitant)" memberEnd="_1NBhcheLEemlnpmfMUThKQ _1NBhdReLEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1NBhcBeLEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1NBhcReLEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1NBhdReLEemlnpmfMUThKQ" name="equip" type="_LHKS8BeLEemlnpmfMUThKQ" association="_1NA6YBeLEemlnpmfMUThKQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1NBhcheLEemlnpmfMUThKQ" name="partit" type="_LnKosBeLEemlnpmfMUThKQ" association="_1NA6YBeLEemlnpmfMUThKQ"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nygZ4BeHEemlnpmfMUThKQ" name="ex3">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_n7xqoBeHEemlnpmfMUThKQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_siMmsBeIEemlnpmfMUThKQ" name="Pare">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7qpMgBeIEemlnpmfMUThKQ" name="idPare" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_78RIABeIEemlnpmfMUThKQ" name="sexe" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EChar"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8aTH0BeIEemlnpmfMUThKQ" name="nom" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8uUQABeIEemlnpmfMUThKQ" name="ciutat" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_2MABeIEemlnpmfMUThKQ" name="Persona">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9W-LcBeIEemlnpmfMUThKQ" name="idPersona" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9qgygBeIEemlnpmfMUThKQ" name="sexe" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EChar"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_98qScBeIEemlnpmfMUThKQ" name="nom" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-LAQcBeIEemlnpmfMUThKQ" name="ciutat" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xinzoBeIEemlnpmfMUThKQ" name="es" memberEnd="_xinzoxeIEemlnpmfMUThKQ _xioasheIEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xinzoReIEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xinzoheIEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xioasheIEemlnpmfMUThKQ" name="persona" type="_s_2MABeIEemlnpmfMUThKQ" association="_xinzoBeIEemlnpmfMUThKQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1LKnoBeIEemlnpmfMUThKQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1LMc0BeIEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xinzoxeIEemlnpmfMUThKQ" name="pare" type="_siMmsBeIEemlnpmfMUThKQ" association="_xinzoBeIEemlnpmfMUThKQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0BnloBeIEemlnpmfMUThKQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0BqB4BeIEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

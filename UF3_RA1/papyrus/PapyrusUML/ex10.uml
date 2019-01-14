@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nygZ4BeHEemlnpmfMUThKQ" name="ex3">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_n7xqoBeHEemlnpmfMUThKQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t_-2gBeMEemlnpmfMUThKQ" name="Editorial"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uavf4BeMEemlnpmfMUThKQ" name="Llibre"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_u1ZbkBeMEemlnpmfMUThKQ" name="Autor">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HhDdABeNEemlnpmfMUThKQ" name="editorial" type="_t_-2gBeMEemlnpmfMUThKQ" association="_Hg_yoBeNEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TCtiUBeNEemlnpmfMUThKQ" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hg_yoBeNEemlnpmfMUThKQ" memberEnd="_HhDdABeNEemlnpmfMUThKQ _HhErIBeNEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HhAZsBeNEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HhAZsReNEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HhErIBeNEemlnpmfMUThKQ" name="autor" type="_u1ZbkBeMEemlnpmfMUThKQ" association="_Hg_yoBeNEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T9tK8BeNEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MYVVABeNEemlnpmfMUThKQ" memberEnd="_MYVVAxeNEemlnpmfMUThKQ _MYV8EBeNEemlnpmfMUThKQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MYVVAReNEemlnpmfMUThKQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MYVVAheNEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MYVVAxeNEemlnpmfMUThKQ" name="llibre" type="_uavf4BeMEemlnpmfMUThKQ" association="_MYVVABeNEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WYZrwBeNEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MYV8EBeNEemlnpmfMUThKQ" type="_Hg_yoBeNEemlnpmfMUThKQ" association="_MYVVABeNEemlnpmfMUThKQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VQhdsBeNEemlnpmfMUThKQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
