@@ -111,11 +111,11 @@ diagrama de classes.**
 
    > Primer anem a la barra superior de l'eclipse, en la cual cerquem el boto Help i al desplegable d'aquest, sel·leccionem l'opció 'Eclipse marketplace' , el qual ens obrira una nova pantalla en la qual cercarem per 'papyrus' i instalareme el que esta instal·lat en la seguent imatge:
 
-   ![0](papyrus/install/0.png)
+   ![0](UF3_RA1/papyrus/install/0.png)
 
    > Un cop instal·lat aquest, ja podrem començar a crear porjectes de 'papyrus'.
 
-   ![1](papyrus/install/1.png)
+   ![1](UF3_RA1/papyrus/install/1.png)
 
 3. Proveu de generar un codi Java per les relacions que heu dissenyat.
 
