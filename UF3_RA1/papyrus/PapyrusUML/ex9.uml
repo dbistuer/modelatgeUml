@@ -70,4 +70,14 @@
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="__RmS0BeNEemlnpmfMUThKQ" name="carrera" type="_beT1oBeNEemlnpmfMUThKQ" association="__RlEsBeNEemlnpmfMUThKQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hLObcBhZEeml_p248mIJZw" memberEnd="_hLRewBhZEeml_p248mIJZw _hLVwMRhZEeml_p248mIJZw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hLQ3sBhZEeml_p248mIJZw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hLQ3sRhZEeml_p248mIJZw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hLVwMRhZEeml_p248mIJZw" name="alumne" type="_cBdmABeNEemlnpmfMUThKQ" association="_hLObcBhZEeml_p248mIJZw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hLRewBhZEeml_p248mIJZw" name="assignatura" type="_c1hgMBeNEemlnpmfMUThKQ" association="_hLObcBhZEeml_p248mIJZw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hLVJIBhZEeml_p248mIJZw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hLVwMBhZEeml_p248mIJZw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>

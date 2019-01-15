@@ -6,27 +6,17 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_t_-2gBeMEemlnpmfMUThKQ" name="Editorial"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_uavf4BeMEemlnpmfMUThKQ" name="Llibre"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_u1ZbkBeMEemlnpmfMUThKQ" name="Autor">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_HhDdABeNEemlnpmfMUThKQ" name="editorial" type="_t_-2gBeMEemlnpmfMUThKQ" association="_Hg_yoBeNEemlnpmfMUThKQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TCtiUBeNEemlnpmfMUThKQ" value="*"/>
-    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CpleEBhZEeml_p248mIJZw" name=""/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Hg_yoBeNEemlnpmfMUThKQ" memberEnd="_HhDdABeNEemlnpmfMUThKQ _HhErIBeNEemlnpmfMUThKQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HhAZsBeNEemlnpmfMUThKQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HhAZsReNEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_I6jF0BhZEeml_p248mIJZw" name="conte" memberEnd="_I6mwMhhZEeml_p248mIJZw _I6n-UBhZEeml_p248mIJZw _RsZ9ABhZEeml_p248mIJZw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I6mwMBhZEeml_p248mIJZw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I6mwMRhZEeml_p248mIJZw" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_HhErIBeNEemlnpmfMUThKQ" name="autor" type="_u1ZbkBeMEemlnpmfMUThKQ" association="_Hg_yoBeNEemlnpmfMUThKQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T9tK8BeNEemlnpmfMUThKQ" value="*"/>
-    </ownedEnd>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_MYVVABeNEemlnpmfMUThKQ" memberEnd="_MYVVAxeNEemlnpmfMUThKQ _MYV8EBeNEemlnpmfMUThKQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MYVVAReNEemlnpmfMUThKQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MYVVAheNEemlnpmfMUThKQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MYVVAxeNEemlnpmfMUThKQ" name="llibre" type="_uavf4BeMEemlnpmfMUThKQ" association="_MYVVABeNEemlnpmfMUThKQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WYZrwBeNEemlnpmfMUThKQ" value="*"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MYV8EBeNEemlnpmfMUThKQ" type="_Hg_yoBeNEemlnpmfMUThKQ" association="_MYVVABeNEemlnpmfMUThKQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VQhdsBeNEemlnpmfMUThKQ" value="*"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_I6mwMhhZEeml_p248mIJZw" name="autor" type="_u1ZbkBeMEemlnpmfMUThKQ" association="_I6jF0BhZEeml_p248mIJZw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_I6n-UBhZEeml_p248mIJZw" name="editorial" type="_t_-2gBeMEemlnpmfMUThKQ" association="_I6jF0BhZEeml_p248mIJZw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RsZ9ABhZEeml_p248mIJZw" name="Llibre" type="_uavf4BeMEemlnpmfMUThKQ" association="_I6jF0BhZEeml_p248mIJZw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RsjG8BhZEeml_p248mIJZw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RsjG8RhZEeml_p248mIJZw" value="1"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
