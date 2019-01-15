@@ -1,4 +1,4 @@
-*1 Modelar en UML**
+**1 Modelar en UML**
 
 L’objectiu d’aquesta activitat és practicar i conèixer com representar utilitzant diagrama de classes de UML diferent informació. Modelar en UML la informació rellevant que s’exposa en els dominis següents tot dibuixant el diagrama estàtic de les classes conceptuals del domini, les associacions entre les classes, els rols de les associacions, i les restriccions d'integritat textual (RIT).
 
@@ -66,9 +66,13 @@ Feu les suposicions addicionals que considereu raonables dins el context.
 
    ![9](UF3_RA1/paradigm/img/9.png)
 
+   ![9](UF3_RA1/papyrus/img/9.png)
+
 10. Exercici: calcula la cardinalitat de la següent relació ternària
 
     ![10](UF3_RA1/paradigm/img/10.png)
+
+    ![10](UF3_RA1/papyrus/img/10.png)
 
 **2 Representar les relacions anteriors amb Visual Paradigm
 Utilitzeu el popular software CASE Visual Paradigm CE per representar les relacions vistes
@@ -118,5 +122,15 @@ diagrama de classes.**
    ![1](UF3_RA1/papyrus/install/1.png)
 
 3. Proveu de generar un codi Java per les relacions que heu dissenyat.
+
+   ![5](UF3_RA1/papyrus/codi/5.png)
+
+   ![4](UF3_RA1/papyrus/codi/4.png)
+
+   ![3](UF3_RA1/papyrus/codi/3.png)
+
+   ![2](UF3_RA1/papyrus/codi/2.png)
+
+   ![1](UF3_RA1/papyrus/codi/1.png)
 
 4. Documenteu i expliqueu de forma adient els processos que heu seguit.

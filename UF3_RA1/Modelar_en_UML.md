@@ -66,9 +66,13 @@ Feu les suposicions addicionals que considereu raonables dins el context.
 
    ![9](paradigm/img/9.png)
 
+   ![9](papyrus/img/9.png)
+
 10. Exercici: calcula la cardinalitat de la següent relació ternària
 
     ![10](paradigm/img/10.png)
+
+    ![10](papyrus/img/10.png)
 
 **2 Representar les relacions anteriors amb Visual Paradigm
 Utilitzeu el popular software CASE Visual Paradigm CE per representar les relacions vistes
@@ -118,5 +122,15 @@ diagrama de classes.**
    ![1](papyrus/install/1.png)
 
 3. Proveu de generar un codi Java per les relacions que heu dissenyat.
+
+   ![5](papyrus/codi/5.png)
+
+   ![4](papyrus/codi/4.png)
+
+   ![3](papyrus/codi/3.png)
+
+   ![2](papyrus/codi/2.png)
+
+   ![1](papyrus/codi/1.png)
 
 4. Documenteu i expliqueu de forma adient els processos que heu seguit.
